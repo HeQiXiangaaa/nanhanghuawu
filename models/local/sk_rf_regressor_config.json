@@ -1,0 +1,10 @@
+﻿{
+  "train_function": "sk_rf_regressor.train_func",
+  "predict_function": "sk_rf_regressor.predict_func",
+  "params": {
+    "target_column": "price",
+    "n_estimators": 200,
+    "max_depth": 10,
+    "random_state": 42
+  }
+}

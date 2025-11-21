@@ -1,0 +1,11 @@
+area,bedrooms,bathrooms,year_built,city,has_garage,house_type
+85,2,1,2006,Beijing,yes,apartment
+135,3,2,2011,Shanghai,no,apartment
+55,1,1,1992,Guangzhou,no,studio
+210,4,3,2019,Shenzhen,yes,villa
+160,3,2,2013,Beijing,yes,villa
+100,2,1,2001,Shanghai,no,apartment
+250,4,3,2021,Shenzhen,yes,villa
+95,2,1,2004,Guangzhou,no,apartment
+145,3,2,2010,Beijing,no,apartment
+190,4,2,2016,Shanghai,yes,villa

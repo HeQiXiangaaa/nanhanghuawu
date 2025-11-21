@@ -1,0 +1,20 @@
+{
+  "train_function": "retail_sales_regressor.train_func",
+  "predict_function": "retail_sales_regressor.predict_func",
+  "params": {
+    "target_column": "sales",
+    "numeric_features": [
+      "store_size",
+      "avg_footfall",
+      "promo_spend"
+    ],
+    "categorical_features": [
+      "city",
+      "weekday",
+      "holiday"
+    ],
+    "n_estimators": 180,
+    "max_depth": 12,
+    "random_state": 17
+  }
+}

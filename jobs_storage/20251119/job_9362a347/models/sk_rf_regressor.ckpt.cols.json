@@ -1,0 +1,17 @@
+{
+  "columns": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "year_built",
+    "city_Beijing",
+    "city_Guangzhou",
+    "city_Shanghai",
+    "city_Shenzhen",
+    "has_garage_no",
+    "has_garage_yes",
+    "house_type_apartment",
+    "house_type_studio",
+    "house_type_villa"
+  ]
+}

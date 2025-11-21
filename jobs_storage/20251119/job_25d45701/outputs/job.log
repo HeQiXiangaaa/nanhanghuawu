@@ -1,0 +1,5 @@
+[2025-11-19 14:51:27,222] [INFO] [core.orchestrator] [JOB 25d45701] 新任务: task_type=train_and_predict, dataset_name=reg_train_retail.csv, predict_dataset_name=reg_predict_retail.csv, model_name=retail_sales_regressor, model_params={}
+[2025-11-19 14:51:36,411] [INFO] [core.model_manager] [MODEL] 任务=25d45701 模型=retail_sales_regressor 类型=train_and_predict 检查点=C:\Users\ROGmb\PycharmProjects\model_intermediary\jobs_storage\_tmp\20251119\job_25d45701\models\retail_sales_regressor.ckpt
+[2025-11-19 14:51:36,432] [INFO] [models.local.retail_sales_regressor] [Retail TRAIN] 开始训练...
+[2025-11-19 14:51:36,796] [INFO] [models.local.retail_sales_regressor] [Retail TRAIN] 模型保存: C:\Users\ROGmb\PycharmProjects\model_intermediary\jobs_storage\_tmp\20251119\job_25d45701\models\retail_sales_regressor.ckpt
+[2025-11-19 14:51:36,860] [INFO] [models.local.retail_sales_regressor] [Retail PREDICT] 写入: C:\Users\ROGmb\PycharmProjects\model_intermediary\jobs_storage\_tmp\20251119\job_25d45701\outputs\25d45701_retail_predictions.csv

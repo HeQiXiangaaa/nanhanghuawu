@@ -1,0 +1,4 @@
+[2025-11-19 12:02:08,839] [INFO] [core.orchestrator] [JOB bda1c4c4] 新任务: task_type=train, dataset_name=reg_train_house.csv, predict_dataset_name=None, model_name=house_complex_regressor, model_params={'random_state': 7, 'n_estimators': 180, 'categorical_features': ['city', 'has_garage', 'house_type'], 'target_column': 'price', 'numeric_features': ['area', 'bedrooms', 'bathrooms', 'year_built'], 'max_depth': 12}
+[2025-11-19 12:02:10,192] [INFO] [core.model_manager] [MODEL] 任务=bda1c4c4 模型=house_complex_regressor 类型=train 检查点=C:\Users\ROGmb\PycharmProjects\model_intermediary\jobs_storage\_tmp\20251119\job_bda1c4c4\models\house_complex_regressor.ckpt
+[2025-11-19 12:02:10,212] [INFO] [models.local.house_complex_regressor] [CFG TRAIN] 开始训练...
+[2025-11-19 12:02:10,356] [INFO] [models.local.house_complex_regressor] [CFG TRAIN] 模型已保存: C:\Users\ROGmb\PycharmProjects\model_intermediary\jobs_storage\_tmp\20251119\job_bda1c4c4\models\house_complex_regressor.ckpt

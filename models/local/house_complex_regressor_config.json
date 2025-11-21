@@ -1,0 +1,12 @@
+{
+  "train_function": "house_complex_regressor.train_func",
+  "predict_function": "house_complex_regressor.predict_func",
+  "params": {
+    "target_column": "price",
+    "numeric_features": ["area", "bedrooms", "bathrooms", "year_built"],
+    "categorical_features": ["city", "has_garage", "house_type"],
+    "n_estimators": 200,
+    "max_depth": 10,
+    "random_state": 42
+  }
+}
